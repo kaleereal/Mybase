@@ -1,0 +1,153 @@
+================================
+
+MyBase Android .gitignore
+
+================================
+
+---- Gradle ----
+
+.gradle/
+build/
+*/build/
+
+---- Android Studio / IntelliJ IDEA ----
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+---- Local configuration ----
+
+local.properties
+
+---- Kotlin ----
+
+.kotlin/
+
+---- Android generated files ----
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+---- APK / AAB outputs ----
+
+*.apk
+*.aab
+*.apks
+*.aab.zip
+
+---- Android Studio generated APK folders ----
+
+app/release/
+app/debug/
+app/build/outputs/
+
+---- Native build artifacts ----
+
+*.so
+*.o
+*.a
+
+---- Signing / Keystore ----
+
+*.jks
+*.keystore
+*.p12
+*.pem
+
+---- Signing configuration ----
+
+keystore.properties
+signing.properties
+
+---- Google / Firebase local configuration ----
+
+google-services.json
+
+---- Environment / secrets ----
+
+.env
+.env.*
+!.env.example
+
+---- Logs ----
+
+*.log
+
+---- Temporary files ----
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+---- Kotlin / Java generated files ----
+
+*.class
+
+---- Test reports ----
+
+test-results/
+reports/
+
+---- Profiling ----
+
+*.hprof
+
+---- Android Studio caches ----
+
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+---- Generated resources ----
+
+/app/src/main/generated/
+
+---- Local database / user data ----
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+---- Local backups ----
+
+*.backup
+*.bak
+
+---- User-specific MyBase data ----
+
+/data/
+/userdata/
+/user-data/
+/local-data/
+
+---- Development exports ----
+
+/exports/
+/imports/
+
+---- Temporary MyBase files ----
+
+/tmp/
+/temp/
+
+---- OS files ----
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
